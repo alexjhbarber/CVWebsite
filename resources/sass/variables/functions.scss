@@ -1,0 +1,29 @@
+@function colour($col) {
+	@return map-get($colours, $col);
+}
+
+@function vw($px){
+	@return #{(vCalc($px, 1920))}vw; 
+}
+
+@function stripUnit($number) {
+    @if type-of($number) == 'number' and not unitless($number) {
+        @return $number / ($number * 0 + 1);
+    }
+  
+    @return $number;
+}
+  
+@function space($size : 1, $px : 30){
+    @return #{(vCalc(($size * stripUnit($px))))}vw; 
+}
+  
+@function vCalc($size, $dimension : 1920){
+    @return #{((stripUnit($size) / $dimension)  * 100)};
+}
+/* Create a band for each colour */
+@each $colour, $value in $colours {
+	.band-#{$colour} {
+		background: #{$value};
+	}
+}

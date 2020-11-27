@@ -1,0 +1,122 @@
+body {
+    font-family: $body-font;
+    @include vw(font-size,20px);
+    background-color: #fafafa;
+}
+
+h1 {
+    font-family: $body-font;
+    font-weight: 600;
+    @media screen and (max-width: 767px) {
+        @include vw(font-size,55px);
+    }
+    @media screen and (min-width: 768px) {
+        @include vw(font-size,60px);
+    }
+}
+h2 {
+    font-family: $body-font;
+    
+    font-weight: 600;
+    @media screen and (max-width: 767px) {
+        @include vw(font-size,30px);
+    }
+    @media screen and (min-width: 768px) {
+        @include vw(font-size,45px);
+    }
+}
+h3 {
+    @include vw(font-size, 22px);
+}
+h4 {
+    @include vw(font-size, 18px);
+}
+h5 {
+    font-family: $body-font;
+    @include vw(font-size,14px);
+    font-weight: 500;
+}
+h1, h2, h3, h4, h5 {
+    a {
+        text-decoration: none;
+    }
+}
+p {
+    font-family: $body-font;
+    @include vw(font-size,18px);
+    @media screen and (max-width: 767px) {
+        @include vw(font-size,29px);
+    }
+    @media screen and (min-width: 768px) {
+        @include vw(font-size,18px);
+    }
+}
+p, span, li {
+    a {
+        text-decoration: none;
+    }
+}
+a{
+    text-decoration: none;
+}
+.container{
+    @media (min-width: 1200px){
+        max-width:60.83vw;
+    }
+}
+#page-rows{
+    @include vw(margin-top, 60px);
+    @include vw(margin-bottom, 70px);
+    .container{
+        border-radius: 10px;
+        color: white;
+        @include vw(padding, 40px);
+        @include vw(margin-bottom, 20px);
+        .texts{
+            @include vw(font-size, 17px);
+        }
+        span{
+            color: colour(bluelight);
+        }
+        
+        &.band-white{
+            color: colour(textgrey);
+            border: 1px solid #e0e0e0;
+        }
+        .col-md-2{
+            
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
+
+.heading-primary{
+    color: colour(primary);
+}
+.heading-secondary{
+    color: colour(secondary);
+}
+.heading-third{
+    color: colour(third);
+}
+.heading-forth{
+    color: colour(forth);
+}
+.heading-textgrey{
+    color: colour(textgrey);
+}
+.heading-white{
+    color:white;
+}
+
+
+.searching-bar{
+    @include vw(margin-bottom, 30px);
+}
+
+.band-small{
+    @include vw(padding-top, 50px);
+    @include vw(padding-bottom, 50px);
+}

@@ -1,0 +1,13 @@
+@mixin vw($attr, $space : 30px){
+	#{$attr}: $space;
+	
+	
+	#{$attr}: #{(vCalc($space, 566))}vw;
+	
+	@media screen and (min-width: 768px){
+		#{$attr}: #{(vCalc($space, 768))}vw; 
+	}
+	@media screen and (min-width: 1300px){	
+		#{$attr}: #{(vCalc($space, 1920))}vw; 
+	}
+}

@@ -6,3 +6,8 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+@import "variables/theme-variables";    // Theme variables
+@import "variables/theme-mixins";       // Theme mixins and functons
+@import "variables/functions";          // SASS functions
+@import "pages/default";                //default styles for headers and paragraphs

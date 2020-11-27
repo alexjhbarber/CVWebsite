@@ -1,0 +1,41 @@
+//Font Variables
+$display-font: 'stratos', sans-serif;
+//$body-font: 'aquawaxpro', sans-serif;
+$body-font: 'Roboto', sans-serif;
+
+//Color variables
+$primary-color: #12385b;
+$primary-color-hover: #355F85;
+
+$secondary-color: #F89939;
+//$secondary-color-hover: #837373;
+
+$tertiary-color: #d54468;
+$light-blue-color: #4CC2D0;
+
+$forth-color: #BBC0C5;
+$text-grey-color: #555555;
+$text-grey-light-color: #555555;
+
+///////////////////////////////////
+$default-border: 10px;
+
+/* Default spacings for elements */
+$space: 30px;
+$space-half: $space / 2;
+$space-double: $space * 2;
+$space-triple: $space * 3;
+$space-quadruple: $space * 4;
+
+/* Used for background/font colours */
+$colours: (
+	primary: $primary-color,
+	primaryhover: $primary-color-hover,
+	secondary: $secondary-color,
+	//secondaryhover: $secondary-color-hover,
+	third: $tertiary-color,
+	forth: $forth-color,
+	bluelight: $light-blue-color,
+	textgrey: $text-grey-color,
+	textgreylight: $text-grey-light-color
+);
