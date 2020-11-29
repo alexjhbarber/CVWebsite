@@ -17,6 +17,10 @@ $forth-color: #BBC0C5;
 $text-grey-color: #555555;
 $text-grey-light-color: #555555;
 
+
+
+$offwhite: #BBBBBB;
+
 ///////////////////////////////////
 $default-border: 10px;
 
@@ -32,7 +36,7 @@ $colours: (
 	primary: $primary-color,
 	primaryhover: $primary-color-hover,
 	secondary: $secondary-color,
-	//secondaryhover: $secondary-color-hover,
+	offwhite: $offwhite,
 	third: $tertiary-color,
 	forth: $forth-color,
 	bluelight: $light-blue-color,

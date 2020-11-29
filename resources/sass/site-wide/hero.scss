@@ -1,0 +1,48 @@
+#hero{
+
+}
+
+.homepage-hero{
+    //background-color: colour(primaryhover);
+    background-image: linear-gradient(#355F85, #204463);
+    //.container{
+    
+    .row{
+        @media (min-width: 1200px){
+            margin-left:19.58vw;
+        }
+
+        .col-md-5{
+            color: white;
+            @include vw(height, 500px);
+            //height: 100vh;
+            text-align: center;
+            h1{
+                @include vw(font-size, 75px);
+            }
+            p{
+                @include vw(margin-top, 60px);
+                @include vw(font-size, 25px);
+                font-weight: 400;
+            }
+
+        }
+        .hero-image{
+            height: 417%;
+            width: 100vw;
+            position: relative;
+            right: 19%;
+            background-repeat: no-repeat;
+            background-size: 99%;
+            background-position: -2310% bottom;
+            border-bottom-left-radius: 50%;
+            border-top-left-radius: 50%;
+            top: -235%;
+        }
+      
+    }
+
+
+    
+
+}

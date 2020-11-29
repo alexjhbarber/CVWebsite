@@ -59,38 +59,15 @@ p, span, li {
 a{
     text-decoration: none;
 }
+
+
+
 .container{
     @media (min-width: 1200px){
         max-width:60.83vw;
     }
 }
-#page-rows{
-    @include vw(margin-top, 60px);
-    @include vw(margin-bottom, 70px);
-    .container{
-        border-radius: 10px;
-        color: white;
-        @include vw(padding, 40px);
-        @include vw(margin-bottom, 20px);
-        .texts{
-            @include vw(font-size, 17px);
-        }
-        span{
-            color: colour(bluelight);
-        }
-        
-        &.band-white{
-            color: colour(textgrey);
-            border: 1px solid #e0e0e0;
-        }
-        .col-md-2{
-            
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-    }
-}
+
 
 .heading-primary{
     color: colour(primary);
@@ -111,12 +88,11 @@ a{
     color:white;
 }
 
-
-.searching-bar{
-    @include vw(margin-bottom, 30px);
-}
-
-.band-small{
-    @include vw(padding-top, 50px);
-    @include vw(padding-bottom, 50px);
+.vertical-container{
+    display: table;
+    height: 100%;
+    .vertical-contents{
+        display: table-cell;
+        vertical-align: middle;
+    }
 }
