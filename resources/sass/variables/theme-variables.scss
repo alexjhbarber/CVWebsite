@@ -17,7 +17,7 @@ $forth-color: #BBC0C5;
 $text-grey-color: #555555;
 $text-grey-light-color: #555555;
 
-
+$border-color: #BBC0C5;
 
 $offwhite: #BBBBBB;
 
@@ -39,6 +39,7 @@ $colours: (
 	offwhite: $offwhite,
 	third: $tertiary-color,
 	forth: $forth-color,
+	bordergrey: $border-color,
 	bluelight: $light-blue-color,
 	textgrey: $text-grey-color,
 	textgreylight: $text-grey-light-color
