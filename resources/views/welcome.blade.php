@@ -9,8 +9,93 @@
     <div class="container">
 
         <div class=" row">
-            <div class="languages-content col-md-2">
-                <div class="languages-image" style="background-image: url('<?php echo url("/") ?>/images/css-logo.jpg')"></div>
+
+
+
+
+            <div class="col-md-2">
+                <div class="languages-content">
+            
+                    <div class="languages-image">
+                        <div class="languages-flip-front" style="background-image: url('<?php echo url("/") ?>/images/html-logo.png')">
+                       
+                    </div>
+                    <div class="languages-flip-back">
+                        <h2>HTML5</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col-md-2">
+                <div class="languages-content">
+            
+                    <div class="languages-image">
+                        <div class="languages-flip-front" style="background-image: url('<?php echo url("/") ?>/images/html-logo.png')">
+                       
+                    </div>
+                    <div class="languages-flip-back">
+                        <h2>HTML5</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="languages-content">
+            
+                    <div class="languages-image">
+                        <div class="languages-flip-front" style="background-image: url('<?php echo url("/") ?>/images/html-logo.png')">
+                       
+                    </div>
+                    <div class="languages-flip-back">
+                        <h2>HTML5</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="languages-content">
+            
+                    <div class="languages-image">
+                        <div class="languages-flip-front" style="background-image: url('<?php echo url("/") ?>/images/html-logo.png')">
+                       
+                    </div>
+                    <div class="languages-flip-back">
+                        <h2>HTML5</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="languages-content">
+            
+                    <div class="languages-image">
+                        <div class="languages-flip-front" style="background-image: url('<?php echo url("/") ?>/images/html-logo.png')">
+                       
+                    </div>
+                    <div class="languages-flip-back">
+                        <h2>HTML5</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="languages-content">
+            
+                    <div class="languages-image">
+                        <div class="languages-flip-front" style="background-image: url('<?php echo url("/") ?>/images/html-logo.png')">
+                       
+                    </div>
+                    <div class="languages-flip-back">
+                        <h2>HTML5</h2>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
